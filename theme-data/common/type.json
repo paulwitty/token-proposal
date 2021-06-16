@@ -1,76 +1,54 @@
-{
-  "title": {
-    "extraLargeHeader": {
+{   "banner": {     "primary": {
       "size": "@fontSize-extraLarge",
-      "weight": "@fontWeight-bold"
-    },
-    "largeHeader": {
+      "weight": "@fontWeight-semibold",     }     "secondary": {
       "size": "@fontSize-extraLarge",
-      "weight": "@fontWeight-semibold"
-    },
-    "large": {
+      "weight": "@fontWeight-regular",     }     "tertiary": {
       "size": "@fontSize-extraLarge",
-      "weight": "@fontWeight-regular"
-    },
-    "medium": {
-      "size": "@fontSize-large",
-      "weight": "@fontWeight-semibold"
-    },
-    "small": {
-      "size": "@fontSize-medium",
-      "weight": "@fontWeight-regular"
-    }
-  },
-  "header": {
+      "weight": "@fontWeight-bold",     }
+  }    "title": {
+    "size": "@fontSize-medium",
+    "weight": "@fontWeight-semibold",    }    "header": {
     "size": "@fontSize-mediumSmall",
-    "weight": "@fontWeight-bold"
-  },
-  "higlightPrimary": {
-    "size": "@fontSize-mediumSmall",
-    "weight": "@fontWeight-bold"
-  },
-  "subheaderPrimary": {
-    "size": "@fontSize-mediumSmall",
-    "weight": "@fontWeight-semibold"
-  },
-  "bodyPrimary": {
-    "size": "@fontSize-mediumSmall",
-    "weight": "@fontWeight-regular"
-  },
-  "hyperlinkPrimary": {
-    "size": "@fontSize-mediumSmall",
-    "weight": "@fontWeight-regular"
-  },
-  "higlightSecondary": {
-    "size": "@fontSize-small",
-    "weight": "@fontWeight-bold"
-  },
-  "subheaderSecondary": {
-    "size": "@fontSize-small",
-    "weight": "@fontWeight-semibold"
-  },
-  "bodySecondary": {
-    "size": "@fontSize-small",
-    "weight": "@fontWeight-regular"
-  },
-  "hyperlinkSecondary": {
-    "size": "@fontSize-small",
-    "weight": "@fontWeight-regular"
-  },
-  "tagLabelPrimary": {
-    "size": "@fontSize-small",
-    "weight": "@fontWeight-semibold"
-  },
-  "highlightTertiary": {
-    "size": "@fontSize-extraSmall",
-    "weight": "@fontWeight-bold"
-  },
-  "bodyTertiary": {
-    "size": "@fontSize-extraSmall",
-    "weight": "@fontWeight-semibold"
-  },
-  "tagLabelSecondary": {
-    "size": "@fontSize-extraSmall",
-    "weight": "@fontWeight-semibold"
-  }
+    "weight": "@fontWeight-bold",    }    "higlight": {
+    "primary": {
+      "size": "@fontSize-mediumSmall",
+      "weight": "@fontWeight-bold",     }
+    "secondary": {
+      "size": "@fontSize-small",
+      "weight": "@fontWeight-bold",     }     "tertiary": {
+      "size": "@fontSize-extraSmall",
+      "weight": "@fontWeight-bold",     }   }    "subheader": {
+    "primary": {
+      "size": "@fontSize-mediumSmall",
+      "weight": "@fontWeight-semibold",     }
+    "secondary": {
+      "size": "@fontSize-small",
+      "weight": "@fontWeight-semibold",     }   }
+
+  "body": {
+    "primary": {
+      "size": "@fontSize-mediumSmall",
+      "weight": "@fontWeight-regular",     }
+    "secondary": {
+      "size": "@fontSize-small",
+      "weight": "@fontWeight-regular",     }     "tertiary": {
+      "size": "@fontSize-extraSmall",
+      "weight": "@fontWeight-semibold",     }   }
+
+  "hyperlink": {
+    "primary": {
+      "size": "@fontSize-mediumSmall",
+      "weight": "@fontWeight-regular",
+      "underlined": true,     }
+    "secondary": {
+      "size": "@fontSize-small",
+      "weight": "@fontWeight-regular",       "underlined": true,     }   }
+
+  "tagLabel": {
+    "primary": {
+      "size": "@fontSize-small",
+      "weight": "@fontWeight-semibold",     }
+    "secondary": {
+      "size": "@fontSize-extraSmall",
+      "weight": "@fontWeight-semibold",     }   }
 }
